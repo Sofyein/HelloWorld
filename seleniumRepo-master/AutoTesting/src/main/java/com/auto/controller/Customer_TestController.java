@@ -22,7 +22,7 @@ public class Customer_TestController {
 	@Autowired
 	private Customer_TestService customer_testService;
 	
-	@GetMapping("/customer_tests")
+	@GetMapping("/customer_testsssss")
 	public List<Customer_Test> findAll() {
 		return customer_testService.findAll();
 	}
